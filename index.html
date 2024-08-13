@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Interactive Website</h1>
+        <p>Your daily dose of inspiration and connection</p>
+    </header>
+    <main>
+        <section id="quoteSection">
+            <h2>Quote of the Day</h2>
+            <button id="newQuoteButton">Get New Quote</button>
+            <blockquote id="quoteDisplay">
+                <p>"Click the button to get a new quote!"</p>
+            </blockquote>
+        </section>
+        <section id="contactSection">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Interactive Website</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
